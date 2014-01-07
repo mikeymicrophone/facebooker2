@@ -12,9 +12,4 @@ spec = Gem::Specification.new do |s|
 
   s.add_dependency('mogli', ">=0.0.33")
   s.add_dependency('ruby-hmac')
-
-  s.add_development_dependency('rake', '>= 0.8.7')
-  s.add_development_dependency('rspec-rails', '>= 2.12')
-  s.add_development_dependency('rails', '>= 3.2')
-  s.add_development_dependency('json', '>= 1.4.0')
 end
